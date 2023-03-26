@@ -1,4 +1,12 @@
 img {
-    width: 200px;
+    width: 400px;
     height: auto;
+    background-image: transparent;
+    background-color: transparent;
+}
+span {
+    align-items: center;
+}
+a {
+    align-items: center;
 }

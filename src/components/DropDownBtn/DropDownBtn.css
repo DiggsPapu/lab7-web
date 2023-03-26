@@ -1,6 +1,29 @@
-.logo{
-    width: 50px;
-    height: auto;
-    color: #888;
-    background-image:#888;
-}
+.btn-dropdown {
+    background-color: transparent; 
+    border: none; 
+    border-radius: 10%;
+    color: white; 
+    padding: 5px 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  /* Darker background on mouse-over */
+  .btn-dropdown:hover {
+    background-color: #565656;
+  }
+  li{
+    font-size: 10px;
+    list-style-type: none;
+    padding: 10px;
+  }
+  button img{
+    height: 20px;
+    width: auto;
+    filter: invert(85%);
+  }
+  ul li img{
+    height: 30px;
+    width: 30px;
+    min-height: auto;
+  }  
