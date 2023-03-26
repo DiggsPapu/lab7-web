@@ -12,6 +12,6 @@ module.exports = {
   plugins: ["react"],
   rules: {
     semi: ["error", "never"],
-    "max-len": ["error", { code: 120, tabWidth: 4 }],
+    "max-len": [1, { code: 120, tabWidth: 4 }],
   },
 };
