@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'prettier'
   ],
   overrides: [
   ],
@@ -18,5 +19,6 @@ module.exports = {
   ],
   rules: {
     semi: ['error', 'never'],
+    'max-len': ["error", { "code": 120, "tabWidth": 4 }]
   },
 }
