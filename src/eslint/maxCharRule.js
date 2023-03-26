@@ -19,4 +19,16 @@ module.exports = {
       lineBiggerThan120: 'Line bigger than 120 char.',
     },
   },
+  create(context) {
+    return {
+      CallExpression(node) {
+        if (node.length >= 120) {
+          context.report({
+            node,
+            message: 'Line bigger than 120 char.',
+          })
+        }
+      },
+    }
+  },
 }
