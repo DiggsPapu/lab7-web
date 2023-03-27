@@ -1,0 +1,10 @@
+form img{
+    height: 20px;
+    width: auto;
+    filter: invert(85%);
+  }
+  button{
+    text-indent: -999px;
+    background: url('../../assets/search.png');
+    background-color: transparent;
+  }
