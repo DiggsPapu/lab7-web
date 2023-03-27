@@ -1,22 +1,20 @@
 import React from "react"
 import './NavBar.css'
+import NavMenu from "./NavMenu"
 
 function NavBar() {
-  // const [active, setActive] = useState(false)
-  
-  return <>
-    <div className="header_in">
-     <button type="button" className="toggle" >
-       <span/>
+  const val = [1,2,3,4,5,6,7]
+  return (
+    <nav className="navigation">
+      <button className="hamburger" type="button">
+        <i className="fa-solid fa-bars" />
       </button>
-  </div>
-  <div className="sidebar" id='sidebar'>
-  <ul>
-    <li>l1</li>
-     <li>l2</li>
-      <li>l3</li>
-  </ul>
-</div>
-  </>
+      <NavMenu 
+      props={["DUCKDUCKGO SEARCH","Private Search","https://duckduckgo.com/","Themes",
+      "https://duckduckgo.com/settings#theme","All Settings","https://duckduckgo.com/settings",
+      "!Bang Search Shortcuts","https://duckduckgo.com/bangs"]}
+      />
+    </nav>
+  )
 }
 export default NavBar
