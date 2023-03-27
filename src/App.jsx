@@ -2,7 +2,7 @@ import React from "react"
 import "./App.css"
 import DropDownBtn from "./components/DropDownBtn/DropDownBtn"
 import Logo from "./components/Logo/Logo"
-// import NavBar from "./components/NavBar/NavBar"
+import NavBar from "./components/NavBar/NavBar"
 import SearchBar from "./components/SearchBar/SearchBar"
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <DropDownBtn/>
     <Logo/>
     <SearchBar/>
+  <NavBar/>
   </div>
 }
 export default App

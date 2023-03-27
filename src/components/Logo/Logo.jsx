@@ -3,8 +3,6 @@ import DuckDuckGoLogo from '../../assets/DuckDuckGo_logo.svg'
 import './Logo.css'
 
 function Logo() {
-  return <figure>
-  <img src={DuckDuckGoLogo} alt="Logo"/>
-  </figure>
+  return  <img src={DuckDuckGoLogo} alt="Logo"/>
 }
 export default Logo

@@ -4,10 +4,19 @@ import './NavBar.css'
 function NavBar() {
   // const [active, setActive] = useState(false)
   
-  return <nav className="sidenav">
+  return <>
+    <div className="header_in">
+     <button type="button" className="toggle" >
+       <span/>
+      </button>
+  </div>
+  <div className="sidebar" id='sidebar'>
   <ul>
-    <li>Private Search</li>
+    <li>l1</li>
+     <li>l2</li>
+      <li>l3</li>
   </ul>
-  </nav>
+</div>
+  </>
 }
 export default NavBar

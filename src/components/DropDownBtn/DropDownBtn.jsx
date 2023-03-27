@@ -8,7 +8,7 @@ import megaphone from '../../assets/megaphone.png'
 import downArrow from '../../assets/downArrow.png'
 
 function DropDownBtn() {
-  const [active, setActive] = useState(false)
+  const [active, setActive] = useState(true)
   return <div>
     <button title="megaphone" type="button" className="btn-dropdown" onClick={()=>{
     setActive(!active)
