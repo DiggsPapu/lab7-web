@@ -3,9 +3,11 @@ import React from "react"
 import './SearchBar.css'
 
 function SearchBar() {
-    return<form>
-    <input type="search" placeholder="Search the web without being tracked"/>
-    {/* <button type="button">Search</button> */}
-</form>
+    return<form className="inline">
+    <div className="input-icons">
+    <i className="fa fa-search icon"/>
+    <input className="input-field" type="text" placeholder="Search the web without being tracked"/>
+    </div>
+    </form>
 }
 export default SearchBar
