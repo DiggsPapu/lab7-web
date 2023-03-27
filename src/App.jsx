@@ -1,14 +1,14 @@
 import React from "react"
 import "./App.css"
-import DropDownBtn from "./components/DropDownBtn/DropDownBtn"
 import Logo from "./components/Logo/Logo"
-import NavBar from "./components/NavBar/NavBar"
 import SearchBar from "./components/SearchBar/SearchBar"
+import Bar from "./components/SideBar/Bar"
+
 
 function App() {
+  
   return <div className="App">
-  <NavBar/>
-  <DropDownBtn/>
+  <Bar/>
   <Logo/>
   <SearchBar/>
   </div>

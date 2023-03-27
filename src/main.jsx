@@ -8,4 +8,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 )
-// This line is shows the warning of a length bigger than 120 char, so it will get this as a mistake and a warning when applying yarn lint.
