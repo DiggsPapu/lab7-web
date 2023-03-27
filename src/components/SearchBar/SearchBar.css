@@ -1,5 +1,6 @@
 .inline{
     width:700px;
+    height: 100px;
     margin:auto;
 }
 .input-icons i {
@@ -8,6 +9,7 @@
   
 .input-icons {
     width: 100%;
+    height: 100%;
     margin-bottom: 10px;
 }
   
@@ -21,7 +23,9 @@
     padding: 10px;
     text-align: left;
     margin-bottom: 3px;
+    font-size: 20px;
 }
 i{
-    margin-left: 75%;
+    margin:5px;
+    margin-left: 46%;
 }
