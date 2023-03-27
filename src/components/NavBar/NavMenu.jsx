@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import React from "react"
 import './NavBar.css'
 import PropTypes, { string } from 'prop-types'
