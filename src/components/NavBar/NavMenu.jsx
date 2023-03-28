@@ -6,8 +6,8 @@ function NavMenu({ props }) {
   const [title,name1,url1,name2,url2,name3,url3,name4,url4] = [...props]
   return (
     <div className="navigation-menu">
-      <h1>{title}</h1>
       <ul>
+        <h1>{title}</h1>
         <li>
           <a href={url1}>{name1}</a>
         </li>

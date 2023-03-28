@@ -5,6 +5,7 @@ import NavMenu from "../NavBar/NavMenu"
 function SideBar ({active}) {
   return (
     <div className={active ? "sidebar open" : "sidebar"}>
+      <div className="sidebar-style">
       <NavMenu 
       props={["DUCKDUCKGO SEARCH","Private Search","https://duckduckgo.com/","Themes",
       "https://duckduckgo.com/settings#theme","All Settings","https://duckduckgo.com/settings",
@@ -32,6 +33,7 @@ function SideBar ({active}) {
       "https://reddit.com","Help","https://help.duckduckgo.com/",
       "Advertise on Seearch","https://help.duckduckgo.com/company/advertise-on-duckduckgo-search"]}
       />
+      </div>
     </div>
   )
 }
