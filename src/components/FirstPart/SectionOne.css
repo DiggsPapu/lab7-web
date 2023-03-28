@@ -1,8 +1,10 @@
-div {
+.logo{
+    width:400px;height:auto;margin-left:100px;
+}
+/* Card Section */
+.card-section{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    justify-content: space-between;
+    flex-direction: row;
 }
