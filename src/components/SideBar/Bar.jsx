@@ -17,7 +17,7 @@ export default function Bar() {
       </button>
       </div>
     </header>
-      <SideBar props={sidebarOpen} /> 
+      <SideBar active={sidebarOpen}/> 
     </>
   )
 }

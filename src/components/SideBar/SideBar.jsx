@@ -2,8 +2,8 @@ import React from "react"
 import PropTypes from 'prop-types'
 import NavMenu from "../NavBar/NavMenu"
 
-function SideBar ({props}) {
-  const sidebarClass = props ? "sidebar open" : "sidebar"
+function SideBar ({active}) {
+  const sidebarClass = active ? "sidebar open" : "sidebar"
   return (
     <div className={sidebarClass}>
       <NavMenu 
@@ -38,5 +38,5 @@ function SideBar ({props}) {
 }
 export default SideBar
 SideBar.propTypes = {
-    props: PropTypes.bool.isRequired
+    active: PropTypes.bool.isRequired
   }
