@@ -44,4 +44,13 @@ header {
   .content.open {
     left: 15vw;
   }
+  .float{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top:0px;
+    right:0px;
+    background-color:transparent;
+    color:#FFF;
+  }
   

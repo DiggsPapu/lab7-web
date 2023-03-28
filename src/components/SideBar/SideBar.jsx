@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import NavMenu from "../NavBar/NavMenu"
 
 function SideBar ({active}) {
-  const sidebarClass = active ? "sidebar open" : "sidebar"
   return (
-    <div className={sidebarClass}>
+    <div className={active ? "sidebar open" : "sidebar"}>
       <NavMenu 
       props={["DUCKDUCKGO SEARCH","Private Search","https://duckduckgo.com/","Themes",
       "https://duckduckgo.com/settings#theme","All Settings","https://duckduckgo.com/settings",

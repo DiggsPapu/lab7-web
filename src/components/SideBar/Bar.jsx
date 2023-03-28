@@ -17,7 +17,15 @@ export default function Bar() {
       </button>
       </div>
     </header>
-      <SideBar active={sidebarOpen}/> 
+      <SideBar active={sidebarOpen}/>  
+      {
+        sidebarOpen?
+        <button className="float" type="button" onClick={()=>{
+        setSideBarOpen(!sidebarOpen)
+      }}>X</button>
+      :
+      <div/>
+      }    
     </>
   )
 }
