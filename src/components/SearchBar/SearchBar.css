@@ -1,6 +1,6 @@
 .inline{
     width:700px;
-    height: 100px;
+    height: 50px;
     margin:auto;
 }
 .input-icons i {
@@ -26,4 +26,5 @@
     font-size: 20px;
 }
 i{
+    margin-left: 41%;
 }

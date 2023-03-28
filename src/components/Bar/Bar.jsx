@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import DropDownBtn from "../DropDownBtn/DropDownBtn"
-import SideBar from "./SideBar"
-import "./SideBar.css"
+import SideBar from "../SideBar/SideBar"
+import "./Bar.css"
 
 export default function Bar() {
   const [sidebarOpen, setSideBarOpen] = useState(false)

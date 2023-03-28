@@ -1,16 +1,14 @@
 import React from "react"
 import "./App.css"
-import Logo from "./components/Logo/Logo"
-import SearchBar from "./components/SearchBar/SearchBar"
-import Bar from "./components/SideBar/Bar"
+import SectionOne from "./components/FirstPart/SectionOne"
+import Bar from "./components/Bar/Bar"
 
 
 function App() {
   
   return <div className="App">
   <Bar/>
-  <Logo/>
-  <SearchBar/>
+  <SectionOne/>
   </div>
 }
 export default App
