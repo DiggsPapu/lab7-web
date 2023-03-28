@@ -10,7 +10,7 @@ export default function Bar() {
       <header>
       <div>
       <DropDownBtn/>
-      <button type="button" onClick={()=>{
+      <button  className="button-bar" type="button" onClick={()=>{
         setSideBarOpen(!sidebarOpen)
       }}>
         <i className="fa fa-bars"/>
