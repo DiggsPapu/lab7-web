@@ -5,8 +5,7 @@ import "./SideBar.css"
 
 export default function Bar() {
   const [sidebarOpen, setSideBarOpen] = useState(false)
-  return (
-    <>
+  return     <>
       <header>
       <div>
       <DropDownBtn/>
@@ -17,15 +16,16 @@ export default function Bar() {
       </button>
       </div>
     </header>
-      <SideBar active={sidebarOpen}/>  
       {
         sidebarOpen?
+        <>
+        <SideBar active={sidebarOpen}/>  
         <button className="float" type="button" onClick={()=>{
         setSideBarOpen(!sidebarOpen)
       }}>X</button>
+        </>
       :
       <div/>
       }    
     </>
-  )
-}
+  }
