@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import DropDownBtn from "../DropDownBtn/DropDownBtn";
-import SideBar from "./SideBar";
-import "./SideBar.css";
+import React, { useState } from "react"
+import DropDownBtn from "../DropDownBtn/DropDownBtn"
+import SideBar from "./SideBar"
+import "./SideBar.css"
 
 export default function Bar() {
-  const [sidebarOpen, setSideBarOpen] = useState(false);
+  const [sidebarOpen, setSideBarOpen] = useState(false)
   return (
     <>
       <header>
@@ -14,7 +14,7 @@ export default function Bar() {
             className="button-bar"
             type="button"
             onClick={() => {
-              setSideBarOpen(!sidebarOpen);
+              setSideBarOpen(!sidebarOpen)
             }}
           >
             <i className="fa fa-bars" />
@@ -28,7 +28,7 @@ export default function Bar() {
             className="float"
             type="button"
             onClick={() => {
-              setSideBarOpen(!sidebarOpen);
+              setSideBarOpen(!sidebarOpen)
             }}
           >
             X
@@ -38,5 +38,5 @@ export default function Bar() {
         <div />
       )}
     </>
-  );
+  )
 }

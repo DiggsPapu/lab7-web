@@ -1,6 +1,6 @@
-import React from "react";
-import "./Card.css";
-import Card from "./Card";
+import React from "react"
+import "./Card.css"
+import Card from "./Card"
 
 function CardSection() {
   return (
@@ -33,6 +33,6 @@ function CardSection() {
         />
       </div>
     </div>
-  );
+  )
 }
-export default CardSection;
+export default CardSection

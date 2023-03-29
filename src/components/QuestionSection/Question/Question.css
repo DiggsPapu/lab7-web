@@ -1,0 +1,41 @@
+.collapsible {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: transparent;
+    min-height: auto;
+  }
+  .collapsible img{
+    margin: 0;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  li{
+    list-style: none;
+    margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image: URL(
+    'https://static.thenounproject.com/png/1144832-200.png');
+  filter: invert(100%);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}

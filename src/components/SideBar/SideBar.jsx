@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import NavMenu from "../NavBar/NavMenu";
+import React from "react"
+import PropTypes from "prop-types"
+import NavMenu from "../NavBar/NavMenu"
 
 function SideBar({ active }) {
   return (
@@ -73,7 +73,7 @@ function SideBar({ active }) {
         />
       </div>
     </div>
-  );
+  )
 }
 export default SideBar;
 SideBar.propTypes = {

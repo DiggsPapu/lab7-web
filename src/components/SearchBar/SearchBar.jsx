@@ -1,6 +1,5 @@
-import React from "react";
-// import icon from '../../assets/search.png'
-import "./SearchBar.css";
+import React from "react"
+import "./SearchBar.css"
 
 function SearchBar() {
   return (
@@ -14,6 +13,6 @@ function SearchBar() {
         />
       </div>
     </form>
-  );
+  )
 }
-export default SearchBar;
+export default SearchBar

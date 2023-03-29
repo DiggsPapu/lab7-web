@@ -1,9 +1,10 @@
-import React from "react";
-import SearchBar from "../SearchBar/SearchBar";
-import DuckDuckGoLogo from "../../assets/DuckDuckGo_logo.svg";
-// import DisplayInfo from "../DisplayInfo/DisplayInfo"
-import "./SectionOne.css";
-import CardSection from "../Card/CardSection";
+import React from "react"
+import SearchBar from "../SearchBar/SearchBar"
+import DuckDuckGoLogo from "../../assets/DuckDuckGo_logo.svg"
+import "./SectionOne.css"
+import CardSection from "../Card/CardSection"
+import Question from "../QuestionSection/Question/Question"
+import QuestionSection from "../QuestionSection/QuestionSection"
 
 function SectionOne() {
   return (
@@ -31,7 +32,8 @@ function SectionOne() {
         </p>
       </div>
       <CardSection />
+      <QuestionSection/>
     </div>
-  );
+  )
 }
-export default SectionOne;
+export default SectionOne

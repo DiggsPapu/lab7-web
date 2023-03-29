@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import "./DropDownBtn.css";
-import twitter from "../../assets/twitterLogo.svg";
-import reddit from "../../assets/redditLogo.png";
-import blog from "../../assets/blog.png";
-import mail from "../../assets/mail.png";
-import megaphone from "../../assets/megaphone.png";
-import downArrow from "../../assets/downArrow.png";
+import React, { useState } from "react"
+import "./DropDownBtn.css"
+import twitter from "../../assets/twitterLogo.svg"
+import reddit from "../../assets/redditLogo.png"
+import blog from "../../assets/blog.png"
+import mail from "../../assets/mail.png"
+import megaphone from "../../assets/megaphone.png"
+import downArrow from "../../assets/downArrow.png"
 
 function DropDownBtn() {
   const [active, setActive] = useState(false);
@@ -45,6 +45,6 @@ function DropDownBtn() {
         )}
       </div>
     </div>
-  );
+  )
 }
-export default DropDownBtn;
+export default DropDownBtn
