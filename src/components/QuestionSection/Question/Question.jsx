@@ -9,7 +9,12 @@ function Question({props},{visible}) {
         <h1>{title}</h1>
         </button>
         <div className="content">
-    <p>{sentence.join()}</p>
+    {
+        visible?
+        <p>{sentence.join()}</p>
+        :
+        <div/>
+    }
     </div>  
     </li>
 }
