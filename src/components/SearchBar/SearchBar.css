@@ -1,30 +1,30 @@
-.inline{
-    width:700px;
-    height: 50px;
-    margin:auto;
+.inline {
+  width: 700px;
+  height: 50px;
+  margin: auto;
 }
 .input-icons i {
-    position: absolute;
+  position: absolute;
 }
-  
+
 .input-icons {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
 }
-  
+
 .icon {
-    padding: 10px;
-    min-width: 40px;
+  padding: 10px;
+  min-width: 40px;
 }
-  
+
 .input-field {
-    width: 100%;
-    padding: 10px;
-    text-align: left;
-    margin-bottom: 3px;
-    font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 3px;
+  font-size: 20px;
 }
-i{
-    margin-left: 41%;
+i {
+  margin-left: 41%;
 }

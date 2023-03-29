@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
 }
-.navigation-menu h1{
-  font-size: small;
+.navigation-menu h1 {
+  font-size: 11px;
   color: rgb(154, 154, 154);
   padding-left: 0px;
 }
@@ -15,8 +15,10 @@
   flex-direction: column;
   align-items: flex-start;
   color: white;
+  margin: 0;
 }
 .navigation-menu li {
+  font-size: 12px;
   list-style-type: none;
   text-decoration: none;
   float: left;

@@ -1,18 +1,19 @@
 .sidebar {
   position: absolute;
-  top: 60px;
-  right: -15vw;
-  height: 100%;
+  top: 0;
+  right: 0;
+  height: 1000px;
   width: 15vw;
-  transition: left 0.3s ease-in-out;
+  transition: right 1s ease-in-out;
   background-color: #292929;
 }
 .sidebar.open {
+  position: fixed;
   right: 0;
   top: 0;
   height: 100%;
 }
-.sidebar-style{
+.sidebar-style {
   width: 100%;
   height: 100%;
   display: flex;
@@ -20,31 +21,31 @@
   justify-content: space-around;
 }
 /* Bar */
-.float{
-  position:absolute;
-  width:60px;
-  height:60px;
-  top:0px;
-  right:0px;
-  background-color:transparent;
-  color:#FFF;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  top: 0px;
+  right: 0px;
+  background-color: transparent;
+  color: #fff;
 }
 header {
   position: flex;
-  width:100%;
+  width: 100%;
   height: 60px;
   background-color: transparent;
   flex-direction: row;
   margin-left: auto;
 }
-header div{
+header div {
   position: flex;
   float: right;
 }
-.button-bar{
+.button-bar {
   display: flex;
   background-color: transparent;
-  width:30px;
+  width: 30px;
   height: 100%;
   justify-content: center;
   margin: 30px;

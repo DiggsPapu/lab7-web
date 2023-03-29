@@ -1,28 +1,28 @@
-.float{
-    position:absolute;
-    width:60px;
-    height:60px;
-    top: 0px;
-    background-color:transparent;
-    color:#FFF;
-  }
-  header {
-    position: flex;
-    width:100%;
-    height: 60px;
-    background-color: transparent;
-    flex-direction: row;
-    margin-left: auto;
-  }
-  header div{
-    position: flex;
-    float: right;
-  }
-  .button-bar{
-    display: flex;
-    background-color: transparent;
-    width:30px;
-    height: 100%;
-    justify-content: center;
-    margin: 30px;
-  }
+.float {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0px;
+  background-color: transparent;
+  color: #fff;
+}
+header {
+  position: flex;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  flex-direction: row;
+  margin-left: auto;
+}
+header div {
+  position: flex;
+  float: right;
+}
+.button-bar {
+  display: flex;
+  background-color: transparent;
+  width: 30px;
+  height: 100%;
+  justify-content: center;
+  margin: 30px;
+}

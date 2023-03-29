@@ -1,9 +1,11 @@
-import React from "react"
-import './NavBar.css'
-import PropTypes, { string } from 'prop-types'
+import React from "react";
+import "./NavBar.css";
+import PropTypes, { string } from "prop-types";
 
 function NavMenu({ props }) {
-  const [title,name1,url1,name2,url2,name3,url3,name4,url4] = [...props]
+  const [title, name1, url1, name2, url2, name3, url3, name4, url4] = [
+    ...props,
+  ];
   return (
     <div className="navigation-menu">
       <ul>
@@ -22,10 +24,10 @@ function NavMenu({ props }) {
         </li>
       </ul>
     </div>
-  )
+  );
 }
 // Defining the proptypes
 NavMenu.propTypes = {
-  props: PropTypes.arrayOf(string).isRequired
-}
-export default NavMenu
+  props: PropTypes.arrayOf(string).isRequired,
+};
+export default NavMenu;
