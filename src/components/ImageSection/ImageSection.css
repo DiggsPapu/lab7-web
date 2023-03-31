@@ -1,0 +1,10 @@
+.image-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background: aqua;
+}
+.image-lab{
+    margin-top:"1000px";
+    margin-bottom:"0px";
+}
