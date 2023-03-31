@@ -1,7 +1,7 @@
 .navigation-menu {
   height: 100%;
   width: 100%;
-  margin-left: 0;
+  margin-left: 0%;
   display: flex;
   flex-direction: column;
 }
@@ -17,10 +17,17 @@
   color: white;
   margin: 0;
 }
-li {
-  font-size: 12px;
+span h1{
+  text-align: left;
+  margin-right: 100px;
+}
+span {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  font-size: 70%;
   list-style-type: none;
   text-decoration: none;
   float: left;
-  margin: 0 1rem;
+  margin: 0;
 }

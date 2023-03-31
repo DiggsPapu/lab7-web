@@ -1,8 +1,8 @@
 .float {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    top: 0px;
+    width: 2%;
+    height: 2%;
+    top:0px;
     right: 0px;
     background-color: transparent;
     color: #fff;

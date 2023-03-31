@@ -1,5 +1,5 @@
 import React from "react"
-import "./NavMenu.scss"
+import "./NavMenu.module.scss"
 import PropTypes, { string } from "prop-types"
 
 function NavMenu({ props }) {
@@ -9,19 +9,19 @@ function NavMenu({ props }) {
   return (
     <div className="navigation-menu">
       <ul>
-        <h1>{title}</h1>
-        <li className="navlist">
+        <h1 style={{fontSize:"70%",textAlign:"left", paddingTop:"10%"}}>{title}</h1>
+        <span className="navlist">
           <a href={url1}>{name1}</a>
-        </li>
-        <li className="navlist">
+        </span>
+        <span className="navlist">
           <a href={url2}>{name2}</a>
-        </li>
-        <li className="navlist">
+        </span>
+        <span className="navlist">
           <a href={url3}>{name3}</a>
-        </li>
-        <li className="navlist">
+        </span>
+        <span className="navlist">
           <a href={url4}>{name4}</a>
-        </li>
+        </span>
       </ul>
     </div>
   )

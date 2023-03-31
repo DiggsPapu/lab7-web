@@ -7,6 +7,7 @@ function SideBar({ active }) {
   return (
     <div className={active ? "sidebar open" : "sidebar"}>
       <div className="sidebar-style">
+      <div/>
         <NavMenu
           props={[
             "DUCKDUCKGO SEARCH",
