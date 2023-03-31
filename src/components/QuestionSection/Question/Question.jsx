@@ -1,12 +1,12 @@
 import React, { useState } from "react"
-import './Question.css'
 import PropTypes, { string } from "prop-types"
+import styles from './Question.module.scss'
 
 function Question ({props}) {
     const [title,...sentence] = [...props]
     const [visible, setVisible] = useState(false)
-    return <li>
-    <button className="collapsible" type="button" 
+    return <li className={styles.li}>
+    <button className={styles.collapsible} type="button" 
     onClick={()=> setVisible(!visible)}>
         <h1>{title}</h1>
     </button>

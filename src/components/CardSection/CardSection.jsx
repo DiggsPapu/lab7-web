@@ -1,10 +1,9 @@
 import React from "react"
-import "./Card.css"
-import Card from "./Card"
+import "./CardSection.css"
+import Card from "./Card/Card"
 
 function CardSection() {
-  return (
-    <div className="wrapper">
+  return <div className="wrapper">
       <h1>Privacy Protection For Any Device</h1>
       <div className="card-section">
         <Card
@@ -33,6 +32,5 @@ function CardSection() {
         />
       </div>
     </div>
-  )
 }
 export default CardSection

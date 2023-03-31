@@ -1,10 +1,8 @@
 import React from "react"
-import SearchBar from "../SearchBar/SearchBar"
+import SearchBar from "./SearchBar/SearchBar"
+import EdgeButton from "./EdgeButton/EdgeButton"
 import DuckDuckGoLogo from "../../assets/DuckDuckGo_logo.svg"
 import "./SectionOne.css"
-import CardSection from "../Card/CardSection"
-import Question from "../QuestionSection/Question/Question"
-import QuestionSection from "../QuestionSection/QuestionSection"
 
 function SectionOne() {
   return (
@@ -19,20 +17,11 @@ function SectionOne() {
         <p style={{ margin: "0", marginBottom: "25px" }}>
           We dont track you. Ever.
         </p>
-        <button
-          style={{
-            backgroundColor: "#678fff",
-          }}
-          type="button"
-        >
-          Add DuckDuckGo to Edge
-        </button>
+        <EdgeButton/>
         <p style={{ fontSize: "10px", margin: "0", marginTop: "10px" }}>
           Trusted by tens of millions worldwide!
         </p>
       </div>
-      <CardSection />
-      <QuestionSection/>
     </div>
   )
 }

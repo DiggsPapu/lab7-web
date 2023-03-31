@@ -1,0 +1,15 @@
+.card-section {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 17%;
+  }
+  .wrapper {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .wrapper h1 {
+    font-size: 15px;
+  }

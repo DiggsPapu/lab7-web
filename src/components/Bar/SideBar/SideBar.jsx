@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import NavMenu from "../NavBar/NavMenu"
+import NavMenu from "./NavMenu/NavMenu"
+import "./SideBar.css"
 
 function SideBar({ active }) {
   return (
@@ -25,7 +26,7 @@ function SideBar({ active }) {
             "iOS",
             "",
             "Android",
-            "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_source%3Dstatic-sidemenu",
+  "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_source%3Dstatic-sidemenu",
             "Mac",
             "https://duckduckgo.com/mac",
             "Browse Extension",
@@ -75,7 +76,7 @@ function SideBar({ active }) {
     </div>
   )
 }
-export default SideBar;
+export default SideBar
 SideBar.propTypes = {
   active: PropTypes.bool.isRequired,
-};
+}

@@ -1,6 +1,7 @@
 import React from "react"
 import Question from "./Question/Question"
 import './QuestionSection.module.css'
+import EdgeButton from "../FirstPart/EdgeButton/EdgeButton"
 
 function QuestionSection(){
     const items = [["How does DuckDuckGo make money?",
@@ -50,6 +51,7 @@ function QuestionSection(){
             <Question props = {item}/>
         ) )}
     </ul>
+    <EdgeButton/>
     </div>
 }
 export default QuestionSection
