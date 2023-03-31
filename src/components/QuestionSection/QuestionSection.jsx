@@ -51,7 +51,7 @@ function QuestionSection(){
             <Question props = {item}/>
         ) )}
     </ul>
-    <EdgeButton/>
+    <EdgeButton color="#678fff"/>
     </div>
 }
 export default QuestionSection

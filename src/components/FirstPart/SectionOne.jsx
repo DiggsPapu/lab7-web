@@ -17,7 +17,7 @@ function SectionOne() {
         <p style={{ margin: "0", marginBottom: "25px" }}>
           We dont track you. Ever.
         </p>
-        <EdgeButton/>
+        <EdgeButton color="#678fff"/>
         <p style={{ fontSize: "10px", margin: "0", marginTop: "10px" }}>
           Trusted by tens of millions worldwide!
         </p>
