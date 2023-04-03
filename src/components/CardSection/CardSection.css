@@ -1,11 +1,11 @@
 .card-section {
-    width: 65%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 17%;
-    background: transparent
+    justify-content:space-between;
+    background: transparent;
+    align-items: center;
   }
   .wrapper {
     width: 100%;

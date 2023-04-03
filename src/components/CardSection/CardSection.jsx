@@ -6,6 +6,7 @@ function CardSection() {
   return <div className="wrapper">
       <h1>Privacy Protection For Any Device</h1>
       <div className="card-section">
+      <div style={{width:"7%"}}/>
         <Card
           props={[
             "https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg",
@@ -30,6 +31,7 @@ function CardSection() {
             " encryption enforcer, and more. Available on iOS & Android.",
           ]}
         />
+        <div style={{width:"7%"}}/>
       </div>
     </div>
 }

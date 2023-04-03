@@ -1,14 +1,15 @@
 .navigation-menu {
-  height: 100%;
+  height: auto;
   width: 100%;
   margin-left: 0%;
-  display: flex;
+  display: fixed;
   flex-direction: column;
 }
 .navigation-menu h1 {
-  font-size: 11px;
-  color: rgb(154, 154, 154);
+  font-size: 10%;
+  color: white;
   padding-left: 0px;
+  margin: 0;
 }
 .navigation-menu ul {
   display: flex;

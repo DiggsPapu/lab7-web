@@ -42,16 +42,20 @@ function QuestionSection(){
     " notice that we offer a Google Chrome extension and a Google Android app, but these are also not in partnership w",
     "ith Google and actually aim to protect you from Google's online trackers."]
 ]
-    return <div style={{
-        width:"60%", marginLeft:"300px"
-    }}>
-    <h1>Frequently Asked Questions</h1>
-        <ul className="list-questionexpandable">
-        {items.map((item) =>(
-            <Question props = {item}/>
-        ) )}
-    </ul>
-    <EdgeButton color="#678fff"/>
+    return <div style={{width:"100%", display: "flex", flexDirection:"row",alignItems:"center" }}>
+    <div style={{width:"15%"}}/>
+        <div style={{
+            width:"60%", alignContent:"center"
+        }}>
+        <h1>Frequently Asked Questions</h1>
+            <ul className="list-questionexpandable">
+            {items.map((item, index) =>(
+                <Question key={index} props = {item}/>
+            ) )}
+        </ul>
+        <EdgeButton color="#678fff"/>
+        </div>
+        <div style={{width:"15%"}}/>
     </div>
 }
 export default QuestionSection

@@ -8,11 +8,11 @@ function Question ({props}) {
     return <li className={styles.li}>
     <button className={styles.collapsible} type="button" 
     onClick={()=> setVisible(!visible)}>
-        <h1>{title}</h1>
+        <h1 style={{color:"black"}}>{title}</h1>
     </button>
         {
             visible?
-            <p>{sentence.join()}</p>
+            <p style={{color:"black"}}>{sentence.join()}</p>
             :
             <div/>
         }

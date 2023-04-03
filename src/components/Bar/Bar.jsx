@@ -30,6 +30,10 @@ export default function Bar() {
             onClick={() => {
               setSideBarOpen(!sidebarOpen)
             }}
+            style={{
+              marginRight:"1%",
+              marginTop:"1.5%"
+            }}
           >
             X
           </button>

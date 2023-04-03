@@ -9,8 +9,7 @@ import downArrow from "../../../assets/downArrow.png"
 
 function DropDownBtn() {
   const [active, setActive] = useState(false)
-  return (
-    <div className="dropdown">
+  return <div className="dropdown">
       <button
         className="dropbtn"
         type="button"
@@ -45,6 +44,5 @@ function DropDownBtn() {
         )}
       </div>
     </div>
-  )
 }
 export default DropDownBtn

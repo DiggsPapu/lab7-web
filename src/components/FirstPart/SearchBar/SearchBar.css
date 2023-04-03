@@ -2,6 +2,7 @@
   width: 55%;
   height: 10%;
   margin: auto;
+  background-color: transparent;
 }
 .input-icons i {
   position: absolute;
@@ -24,6 +25,8 @@
   text-align: left;
   margin-bottom: 0.1%;
   font-size: 100%;
+  background-color: #2e2e2e;
+  color: white;
 }
 i {
   margin-left: 52%;

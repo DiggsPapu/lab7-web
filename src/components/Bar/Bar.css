@@ -25,6 +25,10 @@
     width: 30px;
     height: 100%;
     justify-content: center;
-    margin: 30px;
+    margin: 25%;
+    margin-right: 50%;
+  }
+  i{
+    color: white;
   }
   

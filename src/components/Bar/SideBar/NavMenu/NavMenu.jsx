@@ -7,9 +7,16 @@ function NavMenu({ props }) {
     ...props,
   ]
   return (
-    <div className="navigation-menu">
+    <div className="navigation-menu" style={{
+  height: "auto",
+  width: "100%",
+  marginLeft: "0%",
+  display: "flex",
+  flexDirection: "column",
+    }}>
       <ul>
-        <h1 style={{fontSize:"70%",textAlign:"left", paddingTop:"10%"}}>{title}</h1>
+        <h1 style={{fontSize:"70%",textAlign:"left", paddingTop:"10%",
+        color:"white"}}>{title}</h1>
         <span className="navlist">
           <a href={url1}>{name1}</a>
         </span>

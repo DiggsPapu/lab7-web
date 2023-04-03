@@ -8,12 +8,12 @@ function SectionOne() {
   return (
     <div>
       <img className="logo" src={DuckDuckGoLogo} alt="Logo" style={{
-        width:"30%", height:"auto",marginLeft:"12%"
+        width:"30%", height:"auto", marginTop:"3%",marginTop:"3%"
       }}/>
       <SearchBar />
       <div>
-        <h1>Tired of being tracked online? We can help.</h1>
-        <p style={{ marginBottom: "3%" }}>
+        <h1 style={{color:"white"}}>Tired of being tracked online? We can help.</h1>
+        <p style={{ marginBottom: "3%"}}>
           We dont store your personal info. We dont follow you around with ads.<br/>We dont track you. Ever.</p>
         <EdgeButton color="#678fff"/>
         <p style={{ fontSize: "10px", margin: "0", marginTop: "10px" }}>
