@@ -8,7 +8,7 @@ function SectionOne() {
   return (
     <div>
       <img className="logo" src={DuckDuckGoLogo} alt="Logo" style={{
-        width:"30%", height:"auto", marginTop:"3%",marginTop:"3%"
+        width:"30%", height:"auto", marginTop:"3%"
       }}/>
       <SearchBar />
       <div>
