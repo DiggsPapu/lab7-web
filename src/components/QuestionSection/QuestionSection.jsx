@@ -49,8 +49,8 @@ function QuestionSection(){
         }}>
         <h1>Frequently Asked Questions</h1>
             <ul className="list-questionexpandable">
-            {items.map((item, index) =>(
-                <Question key={index} props = {item}/>
+            {items.map((item) =>(
+                <Question props = {item}/>
             ) )}
         </ul>
         <EdgeButton color="#678fff"/>

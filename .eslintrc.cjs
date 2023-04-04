@@ -13,12 +13,5 @@ module.exports = {
   rules: {
     semi: ["error", "never"],
     "max-len": [1, { code: 120, tabWidth: 4 }],
-  },
-  'import/no-extraneous-dependencies': ['error', {
-    devDependencies:[
-      './vite.config.js',
-      'yarn.lock',
-      'package.json'
-    ]
-  }]
+  }
 }
